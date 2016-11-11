@@ -30,7 +30,7 @@ h2 {
 	margin: 0 auto;
 }
 
-#bio-image, #main-bio, #contact-info {
+#bio-image, #main-bio, #contact-info, #test {
 	float: left;
 }
 
@@ -46,4 +46,13 @@ h2 {
 
 #contact-info {
 	width: 30%;
+}
+
+#test {
+	width: 50%;
+}
+
+#test2 {
+	width: 50%;
+	float: right;
 }
