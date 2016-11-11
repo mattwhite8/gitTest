@@ -11,10 +11,11 @@ header {
 }
 
 h1 {
-	color: white;
+	color: #efeee7;
+	background-color: #333333;
 	font-size: 28px;
-	padding: 15px;
-	margin: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	text-align: center;
 }
 
@@ -23,22 +24,24 @@ h2 {
 }
 
 .container {
+	width: 1024px;
 	margin: 0 auto;
 }
 
+#bio-image, #main-bio, #contact-info {
+	float: left;
+}
 
 #bio-image {
 	width: 200px;
-	float: left;
-	margin-right: 5px;
+	height: 200px;
+	margin-right: 20px;
 }
 
 #main-bio {
 	width: 70%;
-	float: left;
 }
 
 #content-info {
 	width: 30%;
-	float: left;
 }
